@@ -1,0 +1,22 @@
+h2{
+    color: $color-first;
+}
+
+h3{
+    color: $color-six;
+}
+
+.bg-button{
+    background: #4cc9f0;
+    border-color: #4cc9f0  ;
+    color: black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.hidden{
+    display: none !important;
+}
+
+.show{
+    display: block !important;
+}

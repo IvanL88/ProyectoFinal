@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "nombre":"Iván",
+        "edad":34,
+        "email":"lizarazu.ivan@gmail.com",
+        "password":"coderhouse",
+        "pesos":15334,
+        "bitcon":0.25,
+        "ethereum":1.33,
+        "usdc":1200
+    },
+    {
+        "id":2,
+        "nombre":"martina",
+        "edad":18,
+        "email":"perez.martina@gmail.com",
+        "password":"martinahouse",
+        "pesos":500,
+        "bitcon":2.36,
+        "ethereum":1.33,
+        "usdc":1200
+    },
+    {
+        "id":3,
+        "nombre":"Juan Carlos",
+        "edad":54,
+        "email":"juanca@gmail.com",
+        "password":"juancalomas",
+        "pesos":532131.25,
+        "bitcon":0.75,
+        "ethereum":1.33,
+        "usdc":1200
+    }
+ ]

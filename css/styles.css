@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #4361ee;
+}
+
+html {
+  font: 18px;
+}
+
+a {
+  color: #f72585;
+}
+a:hover {
+  color: #ef233c;
+}
+
+main {
+  margin: 20px;
+}
+main h1 {
+  color: #f72585;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+main p {
+  padding-top: 5px;
+}
+main label {
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+.container.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+nav-link {
+  color: #f72585;
+}
+nav-link.active {
+  color: #d90429 !important;
+}
+nav a:hover {
+  color: #ef233c !important;
+}
+
+.img-logo:hover {
+  transform: rotate(15deg);
+  transition-duration: 2s;
+}
+
+.navBackground {
+  background-color: #7209b7;
+  position: static;
+  top: 0px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #7209b7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-list {
+  padding-top: 5px;
+  list-style: none;
+}
+.footer-list a {
+  text-decoration: none;
+}
+
+.footer-title {
+  margin-top: 20px;
+  font-size: 1.25rem;
+  color: #4361ee;
+  text-decoration: underline;
+}
+.footer-title div ul {
+  margin-left: 20px;
+}
+
+.slider {
+  display: flex;
+  overflow: auto;
+  gap: 10px;
+  padding: 15px;
+}
+
+.iframe {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iframe h2 {
+  color: #7209b7;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #f72585;
+}
+
+.btn {
+  background-color: #7209b7;
+  color: #f72585;
+}
+.btn:hover {
+  background-color: #f72585 !important;
+  color: #d90429 !important;
+}
+
+.login-title {
+  font-size: 25px;
+}
+
+h2 {
+  color: #f72585;
+}
+
+h3 {
+  color: #560bad;
+}
+
+.bg-button {
+  background: #4cc9f0;
+  border-color: #4cc9f0;
+  color: black;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
